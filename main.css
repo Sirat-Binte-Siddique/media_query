@@ -1,0 +1,178 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+    .car {
+        width: 317px!important;
+    }
+    h1 {
+        color: #8AC007;
+        font-size: 2.5em;
+    }
+    li {
+        color: #8AC007;
+    }
+    ul {
+        list-style-type: none;
+        font-size: 1.2em;
+    }
+    img {
+        width: 100%;
+        height: 70%;
+        margin-top: 30px;
+    }
+    .btn {
+        background-color: #8AC007;
+        color: white;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 15%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .car {
+        width: 464px!important;
+    }
+    h1 {
+        color: #8AC007;
+        margin-left: 30px;
+        font-size: 3em;
+    }
+    li {
+        color: #8AC007;
+    }
+    ul {
+        list-style-type: none;
+        margin-top: 60px;
+        font-size: 1.2em;
+    }
+    img {
+        width: 95%;
+        height: 70%;
+    }
+    .btn {
+        background-color: #8AC007;
+        color: white;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 15%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .car {
+        width: 754px!important;
+    }
+    h1 {
+        color: #8AC007;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 4.1em;
+    }
+    li {
+        color: #8AC007;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 1.2em;
+    }
+    img {
+        width: 70%;
+        height: 70%;
+    }
+    .btn {
+        background-color: #8AC007;
+        color: white;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 15%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .car {
+        width: 975px!important;
+    }
+    h1 {
+        color: #8AC007;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 4.1em;
+    }
+    li {
+        color: #8AC007;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 1.2em;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        margin-top: 230px!important;
+    }
+    .btn {
+        background-color: #333;
+        color: white;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 15%;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .car {
+        width: 1192px!important;
+    }
+    h1 {
+        color: #8AC007;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 4.1em;
+    }
+    li {
+        color: #8AC007;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: 60px;
+        margin-top: 60px;
+        font-size: 1.2em;
+    }
+    img {
+        width: 100%!important;
+        height: 100%!important;
+        margin-top: 100px!important;
+    }
+    .btn {
+        background-color: #8AC007;
+        color: white;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 15%;
+    }
+}
